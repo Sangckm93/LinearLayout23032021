@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <!--    ctrt + alt + o : loại bỏ những dòng không dùng tới-->
+    <!--    ctrl + space : gợi ý code-->
+    <!--    deprecate: không hỗ trợ-->
+    <!--    chiều ngang màn hình từ 400->600dp-->
+    <!--    chiều dọc màn hình từ 700->1000dp-->
+    <!--    -Layout width, height: : chiều ngang, chiều cao-->
+    <!--        + Match parent: full chiều ngang, cao-->
+    <!--        + Wrap_content: Co dãn kích thước theo content-->
+    <!--    - Orientation: hướng các View sẽ được sắp xếp-->
+    <!--        + Vertical: hướng dọc-->
+    <!--        + Horizontal: Hướng ngang.-->
+    <!--    - Layout_gravity: xác định vị trí view trong kích thước của parent-->
+    <!--        + Khi xác định sẽ ngược chiều với Orientation.-->
+    <!--    -Layout_weight: chia kích thước theo phần-->
+    <!--        + chia đều thì chia các giá trị giống nhau và >0-->
+    <!--        + chia không đều theo weight_sum-->
+    <TextView
+        android:background="#0037FF"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="View 1" />
+
+    <TextView
+        android:background="#ff0"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="View 1" />
+
+    <TextView
+        android:background="#0037FF"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="View 1"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:layout_height="200dp"/>
+
+</LinearLayout>

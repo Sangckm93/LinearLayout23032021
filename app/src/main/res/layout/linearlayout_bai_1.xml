@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:background="#F00"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+        <LinearLayout
+            android:background="#2FBD0F"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+        <LinearLayout
+            android:background="#92DA0C"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+        <LinearLayout
+            android:background="#0022FF"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:background="#CDDC39"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:background="#989292"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:background="#673AB7"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:background="#700A2D"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></LinearLayout>
+    </LinearLayout>
+</LinearLayout>
